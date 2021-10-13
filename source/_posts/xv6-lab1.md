@@ -163,7 +163,7 @@ main(int argc, char *argv[])
 
 {% endnote %}
 
-`sleep`这个命令需要接受不了一个tick参数。参考`rm.c`的分析，应该写成
+`sleep`这个命令需要接受一个tick参数。参考`rm.c`的分析，应该写成
 
 ```c
 if(argc != 2) {
